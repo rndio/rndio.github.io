@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#223346">
+    <link rel="shortcut icon" href="img/icon.ico">
+    <title>Rendio Simamora</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="particles-js">
+    <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content needs-validation">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="ModalLabel">Contact Me</h5>
+                    <button type="button" class="btn-close" onclick="resetForm()" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form name="contact-form">
+                        <div id="alertbox"></div>
+                        <div class="my-2">
+                            <label for="FormControlInput1" class="form-label">Name</label>
+                            <input type="text" name="name" class="form-control" id="FormControlInput1" pattern="[a-zA-Z][a-zA-Z ]{2,}" placeholder="Your Name" required>
+                        </div>
+                        <div class="mb-2">
+                            <label for="FormControlInput2" class="form-label">Email Address</label>
+                            <input type="email" name="email" class="form-control" id="FormControlInput2" pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}" placeholder="Your Email"
+                                required>
+                        </div>
+                        <div class="mb-2">
+                            <label for="FormControlTextarea" class="form-label">Message</label>
+                            <textarea class="form-control" name="message" id="FormControlTextarea" rows="4" placeholder="Your Message" required></textarea>
+                        </div>
+                        <div class="mb-2">
+                            <div class="modal-footer">
+                                <button type="submit" id="btn-sss" class="btn btn-dark">
+                                    <i class="fa fa-send"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="porto center">
+            <figure class="imghvr-blur"><img style="opacity: 1;" src="img/pp.jpg" alt="ProfilePicture">
+                <figcaption>
+                    <h1 class="center">Contact Me</h1>
+                </figcaption><a data-bs-toggle="modal" data-bs-target="#Modal"></a>
+            </figure>
+            <p>Rendio Simamora</p>
+            <div class="soslog">
+                <a href="https://s.id/rndfb" target="_blank" class="fab fa-facebook-f rounded-circle"></a><a href="https://s.id/rndig" target="_blank" class="fab fa-instagram rounded-circle"></a><a href="https://s.id/rndblog" target="_blank" class="fab fa-blogger-b rounded-circle"></a><a href="https://s.id/rndtw" target="_blank" class="fab fa-twitter rounded-circle"></a><a href="https://s.id/rndyt" target="_blank" class="fab fa-youtube rounded-circle"></a>
+            </div>
+        </div>
+    </div>
+    <div class="position-absolute bottom-0 start-50 translate-middle-x love">Made with <i class="fa fa-heart"></i></div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="https://kit.fontawesome.com/f9ad470b69.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
