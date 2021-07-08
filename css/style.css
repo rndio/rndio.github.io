@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300&family=Quicksand:wght@300;400;500;600;700&display=swap');
-
 @media screen and (min-width:768px) {
     ::-webkit-scrollbar {
         -webkit-appearance: none;
@@ -23,6 +21,15 @@
     ::-webkit-scrollbar-thumb:active {
         background-color: rgba(0, 0, 0, .45)
     }
+}
+
+@font-face {
+	font-family: 'HindVadodara-Light';
+	src: url('../fonts/HindVadodara-Light.ttf');
+}
+@font-face {
+    font-family: 'Quicksand';
+    src: url('../fonts/Quicksand.ttf');
 }
 
 html {
@@ -204,8 +211,9 @@ figure a:hover {
 figcaption h1 {
     color: #ffffff;
     font-size: 15px;
-    font-family: 'Hind Vadodara', sans-serif;
-    font-weight: bold;
+    font-family: 'HindVadodara-Light',
+    sans-serif;
+    font-weight: bolder;
     text-align: center;
     text-shadow: 2px 2px 5px #000000
 }
