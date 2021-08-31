@@ -8,56 +8,69 @@
     <meta name="theme-color" content="#223346">
     <link rel="shortcut icon" href="img/icon.ico">
     <title>Rendio Simamora</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap-4.6.0/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/font-awesome-5.15.3/fontawesome.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="canonical" href="https://me.rndio.my.id/">
-    <link rel="preload" as="image" href="img/pp.jpg" type="image/jpg">
-    <link rel="preload" as="font" href="fonts/HindVadodara-Light.ttf" type="font/ttf" crossorigin="anonymous">
-    <link rel="preload" as="font" href="fonts/Quicksand.ttf" type="font/ttf" crossorigin="anonymous">
-    <link rel="icon" href="img/icon.ico" sizes="32x32">
-    <link rel="icon" href="img/icon.ico" sizes="192x192">
-    <link rel="apple-touch-icon" href="img/icon.ico">
-    <meta name="msapplication-TileImage" content="https://me.rndio.my.id/img/icon.ico">
     <meta property="og:locale" content="id_ID">
-    <meta property="og:type" content="blog">
+    <meta property="og:type" content="website">
     <meta property="og:title" content="Rendio Simamora">
-    <meta property="og:description" content="Hanyalah Sebuah Kegabutan yang Ultimate...">
+    <meta property="og:description" content="Hi, I'm Rendio Simamora and This is my Personal Website">
     <meta property="og:url" content="https://me.rndio.my.id/">
     <meta property="og:site_name" content="https://me.rndio.my.id/">
     <meta property="og:image" content="https://me.rndio.my.id/img/pp.jpg">
-    <meta property="og:image:width" content="512">
-    <meta property="og:image:height" content="512">
     <meta name="google-site-verification" content="o6Bg4LJve6uyDMXiw6QKQ_yfFUs48yJeSms3K-l3Qtw">
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(83515528, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+    });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/83515528" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
 </head>
 
 <body id="particles-js">
     <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-            <div class="modal-content needs-validation">
+            <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="ModalLabel">Contact Me</h5>
-                    <button type="button" class="btn-close" onclick="resetForm()" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h5 class="modal-title" id="exampleModalLabel">Contact Me</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" onclick="resetForm()">&times;</span>
                 </div>
                 <div class="modal-body">
                     <form name="contact-form">
                         <div id="alertbox"></div>
                         <div class="my-2">
                             <label for="FormControlInput1" class="form-label">Name</label>
-                            <input type="text" name="name" class="form-control" id="FormControlInput1" pattern="[a-zA-Z][a-zA-Z ]{2,}" placeholder="Your Name" required>
+                            <input type="text" name="name" class="form-control namamu" id="FormControlInput1"
+                                pattern="[a-zA-Z][a-zA-Z ]{2,}" required>
                         </div>
                         <div class="mb-2">
-                            <label for="FormControlInput2" class="form-label">Email Address</label>
-                            <input type="email" name="email" class="form-control" id="FormControlInput2" pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}" placeholder="Your Email"
+                            <label for="FormControlInput2" class="form-label">Email</label>
+                            <input type="email" name="email" class="form-control emailmu" id="FormControlInput2"
+                                pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}"
                                 required>
                         </div>
                         <div class="mb-2">
                             <label for="FormControlTextarea" class="form-label">Message</label>
-                            <textarea class="form-control" name="message" id="FormControlTextarea" rows="4" placeholder="Your Message" required></textarea>
+                            <textarea class="form-control pesanmu" name="message" id="FormControlTextarea" rows="4"
+                                required></textarea>
                         </div>
                         <div class="mb-2">
                             <div class="modal-footer">
                                 <button type="submit" id="btn-sss" class="btn btn-dark">
-                                    <i class="fa fa-send"></i>
+                                    <i class="fas fa-paper-plane"></i>
                                 </button>
                             </div>
                         </div>
@@ -66,23 +79,33 @@
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="porto center">
-            <figure class="imghvr-blur"><img style="opacity: 1;" src="img/pp.jpg" alt="ProfilePicture">
-                <figcaption>
-                    <h1 class="center">Contact Me</h1>
-                </figcaption><a data-bs-toggle="modal" data-bs-target="#Modal"></a>
-            </figure>
+
+    <!-- Main -->
+        <div class="porto noselect">
+            <img draggable="false" src="img/profile.webp" tabindex="0" data-toggle="popover"
+                data-placement="auto"
+                data-content="It's Just Profile Picture. Don't Click on it">
             <p>Rendio Simamora</p>
             <div class="soslog">
                 <a href="https://s.id/rndfb" target="_blank" class="fab fa-facebook-f rounded-circle"></a><a href="https://s.id/rndig" target="_blank" class="fab fa-instagram rounded-circle"></a><a href="https://s.id/rndblog" target="_blank" class="fab fa-blogger-b rounded-circle"></a><a href="https://s.id/rndtw" target="_blank" class="fab fa-twitter rounded-circle"></a><a href="https://s.id/rndyt" target="_blank" class="fab fa-youtube rounded-circle"></a>
             </div>
         </div>
+    <!-- Footer -->
+    <div class="footer">
+        <p>Made With<i class="fa fa-heart"></i></p>
     </div>
-    <div class="position-absolute bottom-0 start-50 translate-middle-x love">Made with <i class="fa fa-heart"></i></div>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/particles.min.js"></script>
-    <script src="https://kit.fontawesome.com/f9ad470b69.js" crossorigin="anonymous"></script>
+
+    <!-- Floating Button -->
+    <div class="contact" data-toggle="popover" data-placement="auto"
+        data-content="Contact Me" data-trigger="hover">
+        <div class="btn btn-outline-light btn-contact" data-toggle="modal" data-target="#Modal">
+            <span class="fas fa-address-card"></span>
+        </div>
+    </div>
+    <script src="assets/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+    <script src="assets/bootstrap-4.6.0/bootstrap.bundle.min.js"></script>
+    <script src="assets/typed.js-2.0.12/typed.min.js"></script>
+    <script src="assets/particles.js-2.0.0/particles.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 
