@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2020 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="24px" height="24px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 8.61 8.62"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil1 {fill:#FEFEFE}
+    .fil0 {fill:#332C2B}
+    .fil2 {fill:#1B1F23}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2452961228672">
+   <circle class="fil0" cx="4.31" cy="4.31" r="4.31"/>
+   <path class="fil1" d="M2.34 6.28c0,0 -2.15,-1.65 -0.59,-4.4 1.56,-2.74 5.46,0.17 5.46,0.17 0,0 0.95,2.09 0.19,3.28 -0.77,1.18 -1.87,1.17 -1.87,1.17l0.04 1.57 0.11 0.33c0,0 -1.2,0.5 -2.7,0.02l-1.13 -0.88 -0.85 -1.28 0.06 -0.51 0.44 0.05 0.84 0.48z"/>
+   <path id="Octicons-mark-github.svg" class="fil2" d="M4.31 0.28c-2.31,0 -4.17,1.86 -4.17,4.17 0,1.84 1.19,3.4 2.85,3.96 0.21,0.03 0.28,-0.09 0.28,-0.2 0,-0.1 0,-0.43 0,-0.78 -1.05,0.19 -1.32,-0.25 -1.4,-0.49 -0.05,-0.12 -0.25,-0.49 -0.43,-0.59 -0.15,-0.08 -0.36,-0.27 -0.01,-0.27 0.33,-0.01 0.57,0.3 0.65,0.42 0.37,0.63 0.97,0.46 1.21,0.35 0.04,-0.27 0.15,-0.46 0.27,-0.56 -0.93,-0.11 -1.9,-0.46 -1.9,-2.06 0,-0.45 0.16,-0.83 0.43,-1.12 -0.05,-0.11 -0.19,-0.53 0.04,-1.11 0,0 0.35,-0.11 1.14,0.43 0.34,-0.09 0.69,-0.14 1.05,-0.14 0.35,0 0.71,0.05 1.04,0.14 0.8,-0.54 1.15,-0.43 1.15,-0.43 0.23,0.58 0.08,1 0.04,1.11 0.27,0.29 0.43,0.66 0.43,1.12 0,1.6 -0.98,1.95 -1.91,2.06 0.15,0.13 0.29,0.38 0.29,0.77 0,0.56 -0.01,1.01 -0.01,1.15 0,0.11 0.08,0.24 0.29,0.2 1.64,-0.56 2.84,-2.12 2.84,-3.96 0,-2.31 -1.87,-4.17 -4.17,-4.17z"/>
+  </g>
+ </g>
+</svg>
