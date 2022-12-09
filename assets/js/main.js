@@ -37,7 +37,7 @@ $(document).ready(function () {
     // Get Latest Article
     $.ajax({
         type: "GET",
-        url: "https://www.blogger.com/feeds/5241005449133255923/posts/summary?alt=json&max-results=6",
+        url: atob('aHR0cHM6Ly9hcGkucm5kaW8ubXkuaWQvYmxvZy8='),
         data: "data",
         dataType: "JSON",
         success: function (resp) {
@@ -59,7 +59,7 @@ $(document).ready(function () {
                         <div class="badge"><span style='color:${getRandomColor()};'>${e.category[0].term}</span></div>
                     </div>
                     <div class="mt-5">
-                        <a href='${e.link[4].href}' class="h3 heading" title='${e.title.$t}'>${e.title.$t}</a>
+                        <a href='${e.link[4].href}' class="heading" title='${e.title.$t}'>${e.title.$t}</a>
                     </div>
                 </article>
             </div>`).join('');
