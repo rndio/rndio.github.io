@@ -1,0 +1,185 @@
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css');
+@import url('https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css');
+
+/*  X-Small devices (portrait phones, less than 576px)
+    No media query for `xs` since this is the default in Bootstrap */
+
+body {
+    scroll-behavior: smooth;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Padding 6rem */
+.pt-6{padding-top: 6rem!important}
+.pb-6{padding-bottom: 6rem!important}
+.py-6{padding-top: 6rem!important;padding-bottom: 6rem!important}
+.ps-6{padding-left: 6rem!important}
+.pe-6{padding-right: 6rem!important}
+.px-6{padding-left: 6rem!important;padding-right: 6rem!important}
+
+/* Margin 6rem */
+.mt-6{margin-top: 6rem!important}
+.mb-6{margin-bottom: 6rem!important}
+.my-6{margin-top: 6rem!important;margin-bottom: 6rem!important}
+.ms-6{margin-left: 6rem!important}
+.me-6{margin-right: 6rem!important}
+.mx-6{margin-left: 6rem!important;margin-right: 6rem!important}
+
+.navbar-container{
+    background: linear-gradient(to top, transparent 0%, rgba(0, 0, 0, 0.08) 100%);
+    transition: all .5s;
+}
+
+.navbar-container.active{
+    background: #24252A;
+}
+
+header.container h1{
+    font-size: 3rem
+}
+
+header.container h1>span{
+    font-size: 13px;
+    display: block;
+}
+
+header.container div>p.text-center{
+    font-size: 12px
+}
+
+header a.btn{
+    padding: .5rem 1rem;
+    transition-property: color, background-color;
+    transition-duration: .4s;
+    transition-timing-function: ease;
+}
+
+#RNDCarousel .splide__slide{
+    border-radius: .4em;
+    filter: grayscale(1);
+    transition: filter ease .5s;
+}
+
+#RNDCarousel .splide__slide.is-active{
+    filter: grayscale(0);
+    transition: filter ease .5s;
+}
+
+.section-title{
+    font-weight: 700;
+}
+
+/* Heart Symbol */
+.heart-symbol{display: inline-block;}
+.heart-symbol::after{content: "\2764";color: #dc3545;font-style: normal;}
+.heart-symbol.beat{animation: beat .6s infinite cubic-bezier(0.8, 0.03, 1, 0) alternate;}
+@keyframes beat {from {transform: scale(.8)} to {transform: scale(1)}}
+
+#RNDFooter .footer-made,
+#RNDFooter .footer-copyright{
+    font-size: 15px !important;
+    font-weight: 500 !important;
+}
+
+#RNDFooter .footer-social a{
+    font-size: 1.5em;
+    display: inline-block;
+    margin: 0 .5rem;
+    color: var(--bs-dark);
+    text-decoration: none;
+}
+
+#RNDFooter .footer-social a:hover{
+    color: #18187e;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {
+    header.container div>p.text-center{
+        font-size: 15px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    header.container h1{
+        font-size: 6rem;
+    }
+    header.container h1>span{
+        font-size: 20px;
+        display: block;
+    }
+    header.container div>p.text-center{
+        font-size: 20px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+
+@media (min-width: 1400px) {
+
+}
+
+
+/* Card Article Start */
+#RNDLatestPost .card {
+    border-radius: 10px
+}
+
+#RNDLatestPost .c-details span {
+    font-weight: 300;
+    font-size: 13px
+}
+
+#RNDLatestPost .icon {
+    width: 50px;
+    height: 50px;
+    background-color: #eee;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 39px
+}
+
+#RNDLatestPost .badge span {
+    background-color: ghostwhite;
+    width: 60px;
+    height: 25px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    display: flex;
+    color: #fed85d;
+    justify-content: center;
+    align-items: center
+}
+
+#RNDLatestPost .heading{
+    display: -webkit-box;
+    font-weight: 600;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    text-decoration: none;
+    color: #212529;
+}
+
+#RNDLatestPost .heading:hover{
+    opacity: .8;
+}
