@@ -1,2 +1,3 @@
+#rndio was here
 User-agent: *
-Allow: /
+Disallow: /
